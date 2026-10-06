@@ -1,0 +1,66 @@
+vi:
+  language_name: Tiếng Việt
+  app_name: Tử Vi AI
+  home: Trang chủ
+  terms: Điều khoản sử dụng
+  privacy: Chính sách bảo mật
+  updated: Cập nhật lần cuối
+  contact: Liên hệ
+  languages: Ngôn ngữ
+  home_intro: Tử Vi AI là ứng dụng nghiên cứu Tử Vi Đẩu Số, kết hợp trí tuệ nhân tạo để lập lá số, luận giải vận hạn và giải đáp thắc mắc của bạn.
+  home_docs: Tài liệu pháp lý
+en:
+  language_name: English
+  app_name: ZiWei AI
+  home: Home
+  terms: Terms of Service
+  privacy: Privacy Policy
+  updated: Last updated
+  contact: Contact
+  languages: Languages
+  home_intro: ZiWei AI is an app for studying Zi Wei Dou Shu (Purple Star Astrology). It uses artificial intelligence to build your birth chart, interpret your fortune periods and answer your questions.
+  home_docs: Legal documents
+zh:
+  language_name: 简体中文
+  app_name: 紫微AI
+  home: 首页
+  terms: 服务条款
+  privacy: 隐私政策
+  updated: 最后更新
+  contact: 联系我们
+  languages: 语言
+  home_intro: 紫微AI是一款研究紫微斗数的应用，结合人工智能为您排盘、解读运势并解答疑问。
+  home_docs: 法律文件
+ko:
+  language_name: 한국어
+  app_name: 자미 AI
+  home: 홈
+  terms: 서비스 약관
+  privacy: 개인정보 처리방침
+  updated: 최종 업데이트
+  contact: 문의
+  languages: 언어
+  home_intro: 자미 AI는 자미두수를 연구하는 앱으로, 인공지능을 활용해 명반을 작성하고 운세를 해석하며 궁금한 점에 답해 드립니다.
+  home_docs: 법적 문서
+ja:
+  language_name: 日本語
+  app_name: 星命AI
+  home: ホーム
+  terms: 利用規約
+  privacy: プライバシーポリシー
+  updated: 最終更新日
+  contact: お問い合わせ
+  languages: 言語
+  home_intro: 星命AIは紫微斗数を研究するアプリです。人工知能を活用して命盤を作成し、運勢を解読し、ご質問にお答えします。
+  home_docs: 法的文書
+ms:
+  language_name: Bahasa Melayu
+  app_name: ZiWei AI
+  home: Laman utama
+  terms: Syarat Perkhidmatan
+  privacy: Dasar Privasi
+  updated: Kemas kini terakhir
+  contact: Hubungi
+  languages: Bahasa
+  home_intro: ZiWei AI ialah aplikasi untuk mengkaji Zi Wei Dou Shu (Astrologi Bintang Ungu). Ia menggunakan kecerdasan buatan untuk membina carta kelahiran anda, mentafsir tempoh nasib dan menjawab soalan anda.
+  home_docs: Dokumen undang-undang

@@ -1,0 +1,9 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+<h1>{{ t.app_name }}</h1>
+<p>{{ t.home_intro }}</p>
+<h2>{{ t.home_docs }}</h2>
+<ul>
+<li><a href="{{ '/' | append: page.lang | append: '/terms/' | relative_url }}">{{ t.terms }}</a></li>
+<li><a href="{{ '/' | append: page.lang | append: '/privacy/' | relative_url }}">{{ t.privacy }}</a></li>
+</ul>
+<p>{{ t.contact }}: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></p>

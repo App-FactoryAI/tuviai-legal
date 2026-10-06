@@ -1,0 +1,51 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>{% if page.doc == 'home' %}{{ t.app_name }}{% else %}{{ page.title }} · {{ t.app_name }}{% endif %}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  {%- for l in site.languages %}
+  <link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}{{ site.baseurl }}/{{ l }}/{% if page.doc != 'home' %}{{ page.doc }}/{% endif %}">
+  {%- endfor %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="{{ '/' | append: page.lang | append: '/' | relative_url }}">{{ t.app_name }}</a>
+      <nav class="doc-nav">
+        <a href="{{ '/' | append: page.lang | append: '/terms/' | relative_url }}"{% if page.doc == 'terms' %} aria-current="page"{% endif %}>{{ t.terms }}</a>
+        <a href="{{ '/' | append: page.lang | append: '/privacy/' | relative_url }}"{% if page.doc == 'privacy' %} aria-current="page"{% endif %}>{{ t.privacy }}</a>
+      </nav>
+    </div>
+    <div class="wrap">
+      <nav class="lang-nav" aria-label="{{ t.languages }}">
+        {%- for l in site.languages %}
+        {%- assign lt = site.data.i18n[l] %}
+        <a href="{{ '/' | append: l | append: '/' | relative_url }}{% if page.doc != 'home' %}{{ page.doc }}/{% endif %}" hreflang="{{ l }}" lang="{{ l }}"{% if l == page.lang %} aria-current="true"{% endif %}>{{ lt.language_name }}</a>
+        {%- endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap content">
+    {%- if page.doc != 'home' and page.updated %}
+    <p class="meta">{{ t.updated }}: {{ page.updated }}</p>
+    {%- endif %}
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>
+        <a href="{{ '/' | append: page.lang | append: '/terms/' | relative_url }}">{{ t.terms }}</a> ·
+        <a href="{{ '/' | append: page.lang | append: '/privacy/' | relative_url }}">{{ t.privacy }}</a> ·
+        {{ t.contact }}: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
+      </p>
+      <p>© {{ site.time | date: '%Y' }} {{ t.app_name }}</p>
+    </div>
+  </footer>
+</body>
+</html>

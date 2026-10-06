@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · ZiWei AI</title>
+  <script>
+    (function () {
+      var supported = ["vi", "en", "zh", "ko", "ja", "ms"];
+      var prefs = navigator.languages || [navigator.language || "en"];
+      var lang = "en";
+      for (var i = 0; i < prefs.length; i++) {
+        var code = String(prefs[i]).toLowerCase().split("-")[0];
+        if (supported.indexOf(code) !== -1) { lang = code; break; }
+      }
+      location.replace("../" + lang + "/privacy/" + location.hash);
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=../en/privacy/"></noscript>
+</head>
+<body>
+  <p>
+    <a href="../vi/privacy/">Tiếng Việt</a> ·
+    <a href="../en/privacy/">English</a> ·
+    <a href="../zh/privacy/">简体中文</a> ·
+    <a href="../ko/privacy/">한국어</a> ·
+    <a href="../ja/privacy/">日本語</a> ·
+    <a href="../ms/privacy/">Bahasa Melayu</a>
+  </p>
+</body>
+</html>

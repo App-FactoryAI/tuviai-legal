@@ -1,0 +1,16 @@
+---
+layout: legal
+lang: en
+doc: home
+---
+<h1>Tử Vi AI · ZiWei AI · 紫微AI · 자미 AI · 星命AI</h1>
+<ul class="lang-list">
+  {%- for l in site.languages %}
+  {%- assign lt = site.data.i18n[l] %}
+  <li lang="{{ l }}">
+    <span class="name">{{ lt.language_name }}</span>
+    <a href="{{ '/' | append: l | append: '/terms/' | relative_url }}">{{ lt.terms }}</a>
+    <a href="{{ '/' | append: l | append: '/privacy/' | relative_url }}">{{ lt.privacy }}</a>
+  </li>
+  {%- endfor %}
+</ul>

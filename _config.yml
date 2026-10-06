@@ -1,0 +1,11 @@
+title: Tử Vi AI
+baseurl: /tuviai-legal
+url: https://app-factoryai.github.io
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+languages: [vi, en, zh, ko, ja, ms]
+contact_email: tuvigpt@gmail.com
+exclude:
+  - README.md
