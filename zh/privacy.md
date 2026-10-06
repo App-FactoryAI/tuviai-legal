@@ -4,7 +4,7 @@ lang: zh
 doc: privacy
 title: 隐私政策
 permalink: /zh/privacy/
-updated: "[生效日期]"
+updated: "2026年10月6日"
 ---
 # 隐私政策
 
@@ -113,6 +113,4 @@ updated: "[生效日期]"
 - 电子邮件：<tuvigpt@gmail.com>
 - 本应用中的"反馈与支持"
 
-本隐私政策自 [生效日期] 起生效。
-
-运营方：[运营方名称 – 待补充]
+本隐私政策自2026年10月6日起生效。

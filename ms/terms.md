@@ -4,7 +4,7 @@ lang: ms
 doc: terms
 title: Syarat Perkhidmatan
 permalink: /ms/terms/
-updated: "[tarikh berkuat kuasa]"
+updated: "6 Oktober 2026"
 ---
 # Syarat Perkhidmatan
 
@@ -194,6 +194,6 @@ Untuk sebarang soalan, maklum balas, aduan atau permintaan berkaitan Syarat ini,
 - E-mel: <tuvigpt@gmail.com>
 - "Maklum balas & Sokongan" dalam Aplikasi
 
-Syarat ini berkuat kuasa mulai [tarikh berkuat kuasa].
+Syarat ini berkuat kuasa mulai 6 Oktober 2026.
 
 Peruntukan mengenai Kandungan yang dijana oleh AI, Pemilikan kandungan, Penafian waranti, Had liabiliti dan Penyelesaian pertikaian terus berkuat kuasa selepas Syarat ini tamat atau selepas anda berhenti menggunakan Aplikasi.

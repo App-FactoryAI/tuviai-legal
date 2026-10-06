@@ -4,7 +4,7 @@ lang: en
 doc: privacy
 title: Privacy Policy
 permalink: /en/privacy/
-updated: "[effective date]"
+updated: "October 6, 2026"
 ---
 # Privacy Policy
 
@@ -113,6 +113,4 @@ For any questions, requests or complaints about this Privacy Policy or your pers
 - Email: <tuvigpt@gmail.com>
 - "Feedback & Support" in the App
 
-This Privacy Policy takes effect from [effective date].
-
-Operator: [Operator name – to be added]
+This Privacy Policy takes effect from October 6, 2026.

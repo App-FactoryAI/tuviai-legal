@@ -4,7 +4,7 @@ lang: en
 doc: terms
 title: Terms of Service
 permalink: /en/terms/
-updated: "[effective date]"
+updated: "October 6, 2026"
 ---
 # Terms of Service
 
@@ -194,6 +194,6 @@ For any questions, feedback, complaints or requests regarding these Terms, pleas
 - Email: <tuvigpt@gmail.com>
 - "Feedback & Support" in the App
 
-These Terms take effect from [effective date].
+These Terms take effect from October 6, 2026.
 
 The provisions on AI-generated content, Content ownership, Disclaimer of warranties, Limitation of liability and Dispute resolution survive the termination of these Terms or the end of your use of the App.

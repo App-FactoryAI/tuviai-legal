@@ -4,7 +4,7 @@ lang: ms
 doc: privacy
 title: Dasar Privasi
 permalink: /ms/privacy/
-updated: "[tarikh berkuat kuasa]"
+updated: "6 Oktober 2026"
 ---
 # Dasar Privasi
 
@@ -113,6 +113,4 @@ Untuk sebarang soalan, permintaan atau aduan mengenai Dasar Privasi ini atau dat
 - E-mel: <tuvigpt@gmail.com>
 - "Maklum balas & Sokongan" dalam Aplikasi
 
-Dasar Privasi ini berkuat kuasa mulai [tarikh berkuat kuasa].
-
-Pengendali: [Nama pengendali – akan ditambah]
+Dasar Privasi ini berkuat kuasa mulai 6 Oktober 2026.

@@ -4,7 +4,7 @@ lang: vi
 doc: privacy
 title: Chính Sách Bảo Mật
 permalink: /vi/privacy/
-updated: "[ngày ban hành]"
+updated: "06/10/2026"
 ---
 # Chính Sách Bảo Mật
 
@@ -113,6 +113,4 @@ Mọi câu hỏi, yêu cầu hoặc khiếu nại liên quan đến Chính Sách
 - Email: <tuvigpt@gmail.com>
 - Mục "Phản hồi & Hỗ trợ" trong Ứng dụng
 
-Chính Sách Bảo Mật này có hiệu lực kể từ ngày [ngày ban hành].
-
-Đơn vị chủ quản: [Tên đơn vị chủ quản – bổ sung sau]
+Chính Sách Bảo Mật này có hiệu lực kể từ ngày 06/10/2026.

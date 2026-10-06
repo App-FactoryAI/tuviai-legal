@@ -4,7 +4,7 @@ lang: vi
 doc: terms
 title: Điều Khoản Sử Dụng
 permalink: /vi/terms/
-updated: "[ngày ban hành]"
+updated: "06/10/2026"
 ---
 # Điều Khoản Sử Dụng
 
@@ -194,6 +194,6 @@ Mọi câu hỏi, góp ý, khiếu nại hoặc yêu cầu liên quan đến Đi
 - Email: <tuvigpt@gmail.com>
 - Mục "Phản hồi & Hỗ trợ" trong Ứng dụng
 
-Điều khoản này có hiệu lực kể từ ngày [ngày ban hành].
+Điều khoản này có hiệu lực kể từ ngày 06/10/2026.
 
 Các quy định về Nội dung do AI tạo ra, Quyền sở hữu nội dung, Miễn trừ trách nhiệm, Giới hạn trách nhiệm và Giải quyết tranh chấp tiếp tục có hiệu lực sau khi Điều khoản chấm dứt hoặc Người dùng ngừng sử dụng Ứng dụng.
