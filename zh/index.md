@@ -1,5 +1,5 @@
 ---
-layout: legal
+layout: landing
 lang: zh
 doc: home
 permalink: /zh/

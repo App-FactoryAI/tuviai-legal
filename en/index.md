@@ -1,5 +1,5 @@
 ---
-layout: legal
+layout: landing
 lang: en
 doc: home
 permalink: /en/

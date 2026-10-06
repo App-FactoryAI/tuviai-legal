@@ -1,5 +1,5 @@
 ---
-layout: legal
+layout: landing
 lang: vi
 doc: home
 permalink: /vi/

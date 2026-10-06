@@ -7,5 +7,8 @@ kramdown:
   auto_ids: true
 languages: [vi, en, zh, ko, ja, ms]
 contact_email: tuvigpt@gmail.com
+# TODO: replace with the real App Store ID once the iOS listing is live
+app_store_url: https://apps.apple.com/app/idXXXXXXXXXX
+play_store_url: https://play.google.com/store/apps/details?id=com.sondo65.tuvigpt
 exclude:
   - README.md

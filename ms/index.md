@@ -1,5 +1,5 @@
 ---
-layout: legal
+layout: landing
 lang: ms
 doc: home
 permalink: /ms/

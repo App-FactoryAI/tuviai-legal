@@ -1,5 +1,5 @@
 ---
-layout: legal
+layout: landing
 lang: ko
 doc: home
 permalink: /ko/

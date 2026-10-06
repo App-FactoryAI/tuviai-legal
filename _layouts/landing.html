@@ -1,0 +1,108 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign home_url = '/' | append: page.lang | append: '/' -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#061423">
+  <title>{{ t.app_name }} · {{ t.hero_eyebrow }}</title>
+  <meta name="description" content="{{ t.meta_description }}">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ home_url }}">
+  {%- for l in site.languages %}
+  <link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}{{ site.baseurl }}/{{ l }}/">
+  {%- endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ site.baseurl }}/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ t.app_name }}">
+  <meta property="og:title" content="{{ t.app_name }} · {{ t.hero_eyebrow }}">
+  <meta property="og:description" content="{{ t.meta_description }}">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ home_url }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/app-icon.png">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/png" href="{{ '/assets/img/emblem.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/landing.css' | relative_url }}">
+  <script>
+    (function () {
+      var ua = navigator.userAgent || '';
+      var ios = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      document.documentElement.setAttribute('data-os', ios ? 'ios' : /Android/i.test(ua) ? 'android' : 'other');
+    })();
+  </script>
+</head>
+<body>
+  <header class="lp-header">
+    <div class="lp-wrap lp-header__inner">
+      <a class="lp-brand" href="{{ home_url | relative_url }}">
+        <img src="{{ '/assets/img/emblem.png' | relative_url }}" alt="" width="36" height="36">
+        <span>{{ t.app_name }}</span>
+      </a>
+      <nav class="lp-nav" aria-label="{{ t.home }}">
+        <a href="#features">{{ t.nav_features }}</a>
+        <a href="#how">{{ t.nav_how }}</a>
+        <a href="#why">{{ t.nav_why }}</a>
+      </nav>
+      <div class="lp-header__actions">
+        <details class="lp-lang">
+          <summary aria-label="{{ t.languages }}">
+            {% include icon.html name='globe' %}
+            <span>{{ page.lang | upcase }}</span>
+            {% include icon.html name='chevron' %}
+          </summary>
+          <ul>
+            {%- for l in site.languages %}
+            {%- assign lt = site.data.i18n[l] %}
+            <li><a href="{{ '/' | append: l | append: '/' | relative_url }}" hreflang="{{ l }}" lang="{{ l }}"{% if l == page.lang %} aria-current="true"{% endif %}>{{ lt.language_name }}</a></li>
+            {%- endfor %}
+          </ul>
+        </details>
+        <a class="lp-btn lp-btn--gold" href="#download">{{ t.download }}</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="lp-footer">
+    <div class="lp-wrap">
+      <div class="lp-footer__top">
+        <a class="lp-brand" href="{{ home_url | relative_url }}">
+          <img src="{{ '/assets/img/emblem.png' | relative_url }}" alt="" width="32" height="32">
+          <span>{{ t.app_name }}</span>
+        </a>
+        <nav class="lp-footer__links" aria-label="{{ t.home_docs }}">
+          <a href="{{ '/' | append: page.lang | append: '/terms/' | relative_url }}">{{ t.terms }}</a>
+          <a href="{{ '/' | append: page.lang | append: '/privacy/' | relative_url }}">{{ t.privacy }}</a>
+          <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
+        </nav>
+      </div>
+      <nav class="lp-footer__langs" aria-label="{{ t.languages }}">
+        {%- for l in site.languages %}
+        {%- assign lt = site.data.i18n[l] %}
+        <a href="{{ '/' | append: l | append: '/' | relative_url }}" hreflang="{{ l }}" lang="{{ l }}"{% if l == page.lang %} aria-current="true"{% endif %}>{{ lt.language_name }}</a>
+        {%- endfor %}
+      </nav>
+      <p class="lp-footer__copy">© {{ site.time | date: '%Y' }} {{ t.app_name }}</p>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      var menu = document.querySelector('.lp-lang');
+      if (!menu) return;
+      document.addEventListener('click', function (e) {
+        if (menu.open && !menu.contains(e.target)) menu.open = false;
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') menu.open = false;
+      });
+    })();
+  </script>
+</body>
+</html>

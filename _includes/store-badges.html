@@ -1,0 +1,11 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+<div class="store-badges{% if include.center %} store-badges--center{% endif %}">
+  <a class="store-badge store-badge--ios" href="{{ site.app_store_url }}" target="_blank" rel="noopener" data-store="app_store">
+    <img src="{{ '/assets/badges/apple.svg' | relative_url }}" alt="" width="26" height="26">
+    <span><small>{{ t.badge_appstore_top }}</small><strong>App Store</strong></span>
+  </a>
+  <a class="store-badge store-badge--android" href="{{ site.play_store_url }}" target="_blank" rel="noopener" data-store="google_play">
+    <img src="{{ '/assets/badges/google-play.svg' | relative_url }}" alt="" width="26" height="26">
+    <span><small>{{ t.badge_play_top }}</small><strong>Google Play</strong></span>
+  </a>
+</div>

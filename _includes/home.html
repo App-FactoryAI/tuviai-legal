@@ -1,9 +1,112 @@
 {%- assign t = site.data.i18n[page.lang] -%}
-<h1>{{ t.app_name }}</h1>
-<p>{{ t.home_intro }}</p>
-<h2>{{ t.home_docs }}</h2>
-<ul>
-<li><a href="{{ '/' | append: page.lang | append: '/terms/' | relative_url }}">{{ t.terms }}</a></li>
-<li><a href="{{ '/' | append: page.lang | append: '/privacy/' | relative_url }}">{{ t.privacy }}</a></li>
-</ul>
-<p>{{ t.contact }}: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></p>
+<section class="lp-hero">
+  <div class="lp-wrap lp-hero__grid">
+    <div class="lp-hero__copy">
+      <span class="lp-chip">{% include icon.html name='sparkle' %}{{ t.hero_eyebrow }}</span>
+      <h1 class="lp-h1">{{ t.hero_title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h1>
+      <p class="lp-lead">{{ t.hero_subtitle }}</p>
+      {% include store-badges.html %}
+      <p class="lp-trust">{{ t.trust_line }}</p>
+    </div>
+    <div class="lp-hero__visual">
+      <div class="lp-phone">
+        <img src="{{ '/assets/img/screen-chart.jpg' | relative_url }}" alt="{{ t.shot1 }}" width="335" height="760">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="lp-section" id="features">
+  <div class="lp-wrap">
+    <div class="lp-section__head">
+      <h2 class="lp-h2">{{ t.features_title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h2>
+      <p class="lp-lead">{{ t.features_subtitle }}</p>
+    </div>
+    <div class="lp-grid">
+      {%- assign feature_icons = 'chart,fortune,chat,heart,calendar,zodiac' | split: ',' %}
+      {%- for icon in feature_icons %}
+      {%- assign n = forloop.index | prepend: 'f' %}
+      {%- assign title_key = n | append: '_title' %}
+      {%- assign desc_key = n | append: '_desc' %}
+      <article class="lp-card">
+        <span class="lp-icon">{% include icon.html name=icon %}</span>
+        <h3>{{ t[title_key] }}</h3>
+        <p>{{ t[desc_key] }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="lp-section" id="how">
+  <div class="lp-wrap">
+    <div class="lp-section__head">
+      <h2 class="lp-h2">{{ t.steps_title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h2>
+    </div>
+    <ol class="lp-steps" role="list">
+      {%- for i in (1..3) %}
+      {%- assign n = i | prepend: 's' %}
+      {%- assign title_key = n | append: '_title' %}
+      {%- assign desc_key = n | append: '_desc' %}
+      <li class="lp-card lp-step">
+        <span class="lp-step__num">0{{ i }}</span>
+        <div>
+          <h3>{{ t[title_key] }}</h3>
+          <p>{{ t[desc_key] }}</p>
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="lp-section" id="screens">
+  <div class="lp-wrap">
+    <div class="lp-section__head">
+      <h2 class="lp-h2">{{ t.shots_title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h2>
+    </div>
+    <div class="lp-shots">
+      {%- assign shots = 'chart,chat,input,account' | split: ',' %}
+      {%- for shot in shots %}
+      {%- assign caption_key = forloop.index | prepend: 'shot' %}
+      <figure class="lp-shot">
+        <div class="lp-phone">
+          <img src="{{ '/assets/img/screen-' | append: shot | append: '.jpg' | relative_url }}" alt="{{ t[caption_key] }}" width="335" height="760" loading="lazy">
+        </div>
+        <figcaption>{{ t[caption_key] }}</figcaption>
+      </figure>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="lp-section" id="why">
+  <div class="lp-wrap">
+    <div class="lp-section__head">
+      <h2 class="lp-h2">{{ t.why_title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h2>
+    </div>
+    <div class="lp-grid">
+      {%- assign why_icons = 'scroll,shield,globe' | split: ',' %}
+      {%- for icon in why_icons %}
+      {%- assign n = forloop.index | prepend: 'w' %}
+      {%- assign title_key = n | append: '_title' %}
+      {%- assign desc_key = n | append: '_desc' %}
+      <article class="lp-card">
+        <span class="lp-icon">{% include icon.html name=icon %}</span>
+        <h3>{{ t[title_key] }}</h3>
+        <p>{{ t[desc_key] }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="lp-section" id="download">
+  <div class="lp-wrap">
+    <div class="lp-cta">
+      <h2 class="lp-h2">{{ t.cta_title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h2>
+      <p class="lp-lead">{{ t.cta_subtitle }}</p>
+      {% include store-badges.html center=true %}
+    </div>
+  </div>
+</section>

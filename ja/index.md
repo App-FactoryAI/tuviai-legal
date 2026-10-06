@@ -1,5 +1,5 @@
 ---
-layout: legal
+layout: landing
 lang: ja
 doc: home
 permalink: /ja/
