@@ -517,8 +517,8 @@ a {
   height: 48px;
   border-radius: 50%;
   border: 1px solid var(--lp-gold);
-  background: var(--lp-gold-bright);
-  color: #241a00;
+  background: var(--lp-bg);
+  color: var(--lp-gold-bright);
   font-family: var(--lp-serif);
   font-weight: 700;
   font-size: 1.1rem;
