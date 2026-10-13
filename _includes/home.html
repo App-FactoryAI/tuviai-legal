@@ -23,7 +23,7 @@
       <p class="lp-lead">{{ t.features_subtitle }}</p>
     </div>
     <div class="lp-grid">
-      {%- assign feature_icons = 'chart,fortune,chat,heart,calendar,zodiac' | split: ',' %}
+      {%- assign feature_icons = 'chart,fortune,chat,book,calendar,zodiac' | split: ',' %}
       {%- for icon in feature_icons %}
       {%- assign n = forloop.index | prepend: 'f' %}
       {%- assign title_key = n | append: '_title' %}
