@@ -14,7 +14,7 @@ vi:
   updated: Cập nhật lần cuối
   contact: Liên hệ
   languages: Ngôn ngữ
-  home_intro: Tử Vi AI là ứng dụng nghiên cứu Tử Vi Đẩu Số, kết hợp trí tuệ nhân tạo để lập lá số, luận giải vận hạn và giải đáp thắc mắc của bạn.
+  home_intro: "Tử Vi AI là ứng dụng nghiên cứu Tử Vi Đẩu Số: lập lá số theo phương pháp truyền thống, kết hợp trí tuệ nhân tạo để luận giải vận hạn và giải đáp thắc mắc của bạn."
   home_docs: Tài liệu pháp lý
   meta_description: "Tử Vi AI – lập lá số Tử Vi Đẩu Số chính xác, luận giải vận hạn và trò chuyện cùng chuyên gia AI. Tải miễn phí trên App Store và Google Play."
   nav_features: "Tính năng"
@@ -29,7 +29,7 @@ vi:
   badge_play_top: "TẢI NỘI DUNG TRÊN"
   features_title: "Mọi điều bạn cần về *Tử Vi*"
   features_subtitle: "Một ứng dụng, đầy đủ công cụ từ lập lá số đến luận giải chuyên sâu."
-  f1_title: "Lập lá số AI"
+  f1_title: "Lập lá số"
   f1_desc: "Nhập ngày giờ sinh, nhận lá số 12 cung đầy đủ chính tinh, phụ tinh trong vài giây."
   f2_title: "Luận giải vận hạn"
   f2_desc: "Đại vận, tiểu vận và lưu niên được phân tích rõ ràng, dễ hiểu."
@@ -44,8 +44,8 @@ vi:
   steps_title: "Chỉ *3 bước* đơn giản"
   s1_title: "Nhập ngày giờ sinh"
   s1_desc: "Theo dương lịch hoặc âm lịch, kèm giới tính và nơi sinh."
-  s2_title: "AI lập lá số tức thì"
-  s2_desc: "Hệ thống an sao theo quy tắc Tử Vi Đẩu Số truyền thống."
+  s2_title: "Nhận lá số tức thì"
+  s2_desc: "Ứng dụng an sao theo quy tắc Tử Vi Đẩu Số truyền thống, không phụ thuộc AI."
   s3_title: "Nhận luận giải chi tiết"
   s3_desc: "Đọc phân tích từng cung và hỏi thêm AI bất cứ lúc nào."
   shots_title: "Trải nghiệm *trong ứng dụng*"
@@ -78,7 +78,7 @@ en:
   updated: Last updated
   contact: Contact
   languages: Languages
-  home_intro: ZiWei AI is an app for studying Zi Wei Dou Shu (Purple Star Astrology). It uses artificial intelligence to build your birth chart, interpret your fortune periods and answer your questions.
+  home_intro: "ZiWei AI is an app for studying Zi Wei Dou Shu (Purple Star Astrology). It builds your birth chart with traditional methods and uses artificial intelligence to interpret your fortune periods and answer your questions."
   home_docs: Legal documents
   meta_description: "ZiWei AI – accurate Zi Wei Dou Shu birth charts, fortune-period readings and an AI astrology assistant. Download free on the App Store and Google Play."
   nav_features: "Features"
@@ -93,7 +93,7 @@ en:
   badge_play_top: "GET IT ON"
   features_title: "Everything you need for *Zi Wei*"
   features_subtitle: "One app with every tool, from chart building to in-depth readings."
-  f1_title: "AI birth chart"
+  f1_title: "Birth chart"
   f1_desc: "Enter your birth date and time to get a full 12-palace chart with major and minor stars in seconds."
   f2_title: "Fortune periods"
   f2_desc: "Decade, yearly and annual cycles explained clearly and simply."
@@ -108,8 +108,8 @@ en:
   steps_title: "Just *3 simple* steps"
   s1_title: "Enter your birth details"
   s1_desc: "Solar or lunar date, plus gender and place of birth."
-  s2_title: "AI builds your chart"
-  s2_desc: "Stars are placed using traditional Zi Wei Dou Shu rules."
+  s2_title: "Your chart, instantly"
+  s2_desc: "Stars are placed by traditional Zi Wei Dou Shu rules, not by AI."
   s3_title: "Get a detailed reading"
   s3_desc: "Read each palace's analysis and ask the AI follow-up questions anytime."
   shots_title: "Inside *the app*"
@@ -142,7 +142,7 @@ zh:
   updated: 最后更新
   contact: 联系我们
   languages: 语言
-  home_intro: 紫微AI是一款研究紫微斗数的应用，结合人工智能为您排盘、解读运势并解答疑问。
+  home_intro: "紫微AI是一款研究紫微斗数的应用，按传统方法排盘，并结合人工智能解读运势、解答疑问。"
   home_docs: 法律文件
   meta_description: "紫微AI——精准紫微斗数排盘、运势解读与AI命理助手。在 App Store 和 Google Play 免费下载。"
   nav_features: "功能"
@@ -157,7 +157,7 @@ zh:
   badge_play_top: "立即获取"
   features_title: "紫微斗数，*一应俱全*"
   features_subtitle: "从排盘到深度解读，一个应用全部搞定。"
-  f1_title: "AI 排盘"
+  f1_title: "排盘"
   f1_desc: "输入出生日期与时辰，数秒内获得包含主星、辅星的完整十二宫命盘。"
   f2_title: "运势解读"
   f2_desc: "大限、小限与流年，清晰易懂地为你分析。"
@@ -172,8 +172,8 @@ zh:
   steps_title: "只需简单*3步*"
   s1_title: "输入出生信息"
   s1_desc: "公历或农历日期，以及性别和出生地。"
-  s2_title: "AI 即时排盘"
-  s2_desc: "依照传统紫微斗数规则安星。"
+  s2_title: "即时生成命盘"
+  s2_desc: "依照传统紫微斗数规则安星，不依赖 AI。"
   s3_title: "获取详细解读"
   s3_desc: "阅读各宫分析，随时向AI追问。"
   shots_title: "应用内*体验*"
@@ -206,7 +206,7 @@ ko:
   updated: 최종 업데이트
   contact: 문의
   languages: 언어
-  home_intro: 자미 AI는 자미두수를 연구하는 앱으로, 인공지능을 활용해 명반을 작성하고 운세를 해석하며 궁금한 점에 답해 드립니다.
+  home_intro: "자미 AI는 자미두수를 연구하는 앱으로, 전통 방식으로 명반을 작성하고 인공지능을 활용해 운세를 해석하며 궁금한 점에 답해 드립니다."
   home_docs: 법적 문서
   meta_description: "자미 AI – 정확한 자미두수 명반, 운세 해석, AI 명리 상담. App Store와 Google Play에서 무료로 다운로드하세요."
   nav_features: "기능"
@@ -221,7 +221,7 @@ ko:
   badge_play_top: "다운로드하기"
   features_title: "자미두수에 필요한 *모든 것*"
   features_subtitle: "명반 작성부터 심층 해석까지, 하나의 앱으로."
-  f1_title: "AI 명반"
+  f1_title: "명반 작성"
   f1_desc: "생년월일시를 입력하면 주성과 보조성을 담은 12궁 명반을 몇 초 만에 받아보세요."
   f2_title: "운세 해석"
   f2_desc: "대한, 소한, 유년 운을 명확하고 쉽게 분석합니다."
@@ -236,8 +236,8 @@ ko:
   steps_title: "간단한 *3단계*"
   s1_title: "출생 정보 입력"
   s1_desc: "양력 또는 음력 날짜와 성별, 출생지를 입력합니다."
-  s2_title: "AI가 즉시 명반 작성"
-  s2_desc: "전통 자미두수 규칙에 따라 별을 배치합니다."
+  s2_title: "즉시 명반 완성"
+  s2_desc: "AI가 아닌 전통 자미두수 규칙에 따라 별을 배치합니다."
   s3_title: "상세 해석 받기"
   s3_desc: "각 궁의 분석을 읽고 언제든 AI에게 추가 질문하세요."
   shots_title: "앱 *미리보기*"
@@ -270,7 +270,7 @@ ja:
   updated: 最終更新日
   contact: お問い合わせ
   languages: 言語
-  home_intro: 星命AIは紫微斗数を研究するアプリです。人工知能を活用して命盤を作成し、運勢を解読し、ご質問にお答えします。
+  home_intro: "星命AIは紫微斗数を研究するアプリです。伝統的な方法で命盤を作成し、人工知能を活用して運勢を解読し、ご質問にお答えします。"
   home_docs: 法的文書
   meta_description: "星命AI – 正確な紫微斗数の命盤作成、運勢の解読、AI占い相談。App Store と Google Play で無料ダウンロード。"
   nav_features: "機能"
@@ -285,7 +285,7 @@ ja:
   badge_play_top: "GET IT ON"
   features_title: "紫微斗数の*すべて*を、ひとつに"
   features_subtitle: "命盤作成から詳しい鑑定まで、ひとつのアプリで。"
-  f1_title: "AI命盤"
+  f1_title: "命盤作成"
   f1_desc: "生年月日と時刻を入力するだけで、主星・副星を含む十二宮の命盤を数秒で作成。"
   f2_title: "運勢の解読"
   f2_desc: "大限・小限・流年をわかりやすく分析します。"
@@ -300,8 +300,8 @@ ja:
   steps_title: "かんたん*3ステップ*"
   s1_title: "生年月日時を入力"
   s1_desc: "新暦または旧暦の日付と、性別・出生地を入力。"
-  s2_title: "AIが即座に命盤作成"
-  s2_desc: "伝統的な紫微斗数のルールで星を配置します。"
+  s2_title: "命盤をすぐに作成"
+  s2_desc: "AIではなく、伝統的な紫微斗数のルールで星を配置します。"
   s3_title: "詳しい鑑定を受け取る"
   s3_desc: "各宮の分析を読み、いつでもAIに追加で質問できます。"
   shots_title: "アプリの*画面*"
@@ -334,7 +334,7 @@ ms:
   updated: Kemas kini terakhir
   contact: Hubungi
   languages: Bahasa
-  home_intro: ZiWei AI ialah aplikasi untuk mengkaji Zi Wei Dou Shu (Astrologi Bintang Ungu). Ia menggunakan kecerdasan buatan untuk membina carta kelahiran anda, mentafsir tempoh nasib dan menjawab soalan anda.
+  home_intro: "ZiWei AI ialah aplikasi untuk mengkaji Zi Wei Dou Shu (Astrologi Bintang Ungu). Ia membina carta kelahiran anda dengan kaedah tradisional dan menggunakan kecerdasan buatan untuk mentafsir tempoh nasib serta menjawab soalan anda."
   home_docs: Dokumen undang-undang
   meta_description: "ZiWei AI – carta kelahiran Zi Wei Dou Shu yang tepat, tafsiran tempoh nasib dan pembantu astrologi AI. Muat turun percuma di App Store dan Google Play."
   nav_features: "Ciri"
@@ -349,7 +349,7 @@ ms:
   badge_play_top: "DAPATKANNYA DI"
   features_title: "Semua yang anda perlukan tentang *Zi Wei*"
   features_subtitle: "Satu aplikasi dengan semua alat, daripada membina carta hingga tafsiran mendalam."
-  f1_title: "Carta kelahiran AI"
+  f1_title: "Carta kelahiran"
   f1_desc: "Masukkan tarikh dan masa lahir untuk mendapat carta 12 istana lengkap dalam beberapa saat."
   f2_title: "Tempoh nasib"
   f2_desc: "Kitaran dekad dan tahunan diterangkan dengan jelas dan mudah."
@@ -364,8 +364,8 @@ ms:
   steps_title: "Hanya *3 langkah* mudah"
   s1_title: "Masukkan butiran lahir"
   s1_desc: "Tarikh solar atau lunar, serta jantina dan tempat lahir."
-  s2_title: "AI membina carta anda"
-  s2_desc: "Bintang diletakkan mengikut peraturan tradisional Zi Wei Dou Shu."
+  s2_title: "Carta anda serta-merta"
+  s2_desc: "Bintang diletakkan mengikut peraturan tradisional Zi Wei Dou Shu, bukan oleh AI."
   s3_title: "Dapatkan tafsiran terperinci"
   s3_desc: "Baca analisis setiap istana dan tanya AI soalan susulan pada bila-bila masa."
   shots_title: "Di dalam *aplikasi*"

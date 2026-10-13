@@ -517,16 +517,11 @@ a {
   height: 48px;
   border-radius: 50%;
   border: 1px solid var(--lp-gold);
-  background: var(--lp-bg);
-  color: var(--lp-gold-bright);
+  background: var(--lp-gold-bright);
+  color: #241a00;
   font-family: var(--lp-serif);
   font-weight: 700;
   font-size: 1.1rem;
-}
-
-.lp-step:nth-child(2) .lp-step__num {
-  background: var(--lp-gold-bright);
-  color: #241a00;
 }
 
 /* Screenshots */
