@@ -10,7 +10,7 @@
     </div>
     <div class="lp-hero__visual">
       <div class="lp-phone">
-        <img src="{{ '/assets/img/screens/' | append: page.lang | append: '/la_so.jpg' | relative_url }}" alt="{{ t.shot1 }}" width="600" height="1304">
+        <img src="{{ '/assets/img/screens/' | append: page.lang | append: '/la_so.jpg' | relative_url }}" alt="{{ t.shot1 }}" width="600" height="1304" style="height:auto">
       </div>
     </div>
   </div>
@@ -71,7 +71,7 @@
       {%- assign caption_key = forloop.index | prepend: 'shot' %}
       <figure class="lp-shot">
         <div class="lp-phone">
-          <img src="{{ '/assets/img/screens/' | append: page.lang | append: '/' | append: shot | append: '.jpg' | relative_url }}" alt="{{ t[caption_key] }}" width="600" height="1304" loading="lazy">
+          <img src="{{ '/assets/img/screens/' | append: page.lang | append: '/' | append: shot | append: '.jpg' | relative_url }}" alt="{{ t[caption_key] }}" width="600" height="1304" style="height:auto" loading="lazy">
         </div>
         <figcaption>{{ t[caption_key] }}</figcaption>
       </figure>

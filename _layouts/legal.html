@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <title>{% if page.doc == 'home' %}{{ t.app_name }}{% else %}{{ page.title }} · {{ t.app_name }}{% endif %}</title>
-  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   {%- for l in site.languages %}
   <link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}{{ site.baseurl }}/{{ l }}/{% if page.doc != 'home' %}{{ page.doc }}/{% endif %}">
   {%- endfor %}
