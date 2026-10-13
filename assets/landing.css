@@ -1,21 +1,21 @@
 :root {
-  --bg: #061423;
-  --bg-deep: #020f1e;
-  --surface: #0f1c2c;
-  --card: #132030;
-  --card-high: #1e2b3b;
-  --text: #d6e4f9;
-  --muted: #a9b6cc;
-  --gold: #c9a227;
-  --gold-bright: #ecc246;
-  --gold-light: #e8d48b;
-  --line: rgba(201, 162, 39, 0.28);
-  --line-strong: rgba(201, 162, 39, 0.6);
-  --glow: 0 8px 32px rgba(201, 162, 39, 0.14);
-  --glow-lg: 0 24px 64px rgba(201, 162, 39, 0.22);
-  --radius: 16px;
-  --serif: "Playfair Display", "Noto Serif SC", "Noto Serif JP", "Noto Serif KR", Georgia, serif;
-  --sans: "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans", "Apple SD Gothic Neo", "Noto Sans", sans-serif;
+  --lp-bg: #061423;
+  --lp-bg-deep: #020f1e;
+  --lp-surface: #0f1c2c;
+  --lp-card: #132030;
+  --lp-card-high: #1e2b3b;
+  --lp-text: #d6e4f9;
+  --lp-muted: #a9b6cc;
+  --lp-gold: #c9a227;
+  --lp-gold-bright: #ecc246;
+  --lp-gold-light: #e8d48b;
+  --lp-line: rgba(201, 162, 39, 0.28);
+  --lp-line-strong: rgba(201, 162, 39, 0.6);
+  --lp-glow: 0 8px 32px rgba(201, 162, 39, 0.14);
+  --lp-glow-lg: 0 24px 64px rgba(201, 162, 39, 0.22);
+  --lp-radius: 16px;
+  --lp-serif: "Playfair Display", "Noto Serif SC", "Noto Serif JP", "Noto Serif KR", Georgia, serif;
+  --lp-sans: "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans", "Apple SD Gothic Neo", "Noto Sans", sans-serif;
 }
 
 *,
@@ -32,19 +32,19 @@ html {
 
 body {
   margin: 0;
-  background-color: var(--bg);
+  background-color: var(--lp-bg);
   background-image:
     radial-gradient(circle at 50% 0%, rgba(201, 162, 39, 0.09) 0%, transparent 55%),
     radial-gradient(circle at 85% 60%, rgba(58, 70, 101, 0.28) 0%, transparent 50%),
-    radial-gradient(1px 1px at 25px 35px, var(--gold) 100%, transparent),
-    radial-gradient(1px 1px at 120px 80px, var(--gold-bright) 80%, transparent),
-    radial-gradient(1.5px 1.5px at 240px 180px, var(--text) 70%, transparent),
-    radial-gradient(1px 1px at 340px 220px, var(--gold) 60%, transparent),
+    radial-gradient(1px 1px at 25px 35px, var(--lp-gold) 100%, transparent),
+    radial-gradient(1px 1px at 120px 80px, var(--lp-gold-bright) 80%, transparent),
+    radial-gradient(1.5px 1.5px at 240px 180px, var(--lp-text) 70%, transparent),
+    radial-gradient(1px 1px at 340px 220px, var(--lp-gold) 60%, transparent),
     radial-gradient(1.5px 1.5px at 450px 70px, #fff 90%, transparent);
   background-size: 100% 100vh, 100% 100%, 550px 350px, 480px 420px, 600px 500px, 350px 300px, 520px 480px;
   background-repeat: no-repeat, no-repeat, repeat, repeat, repeat, repeat, repeat;
-  color: var(--text);
-  font-family: var(--sans);
+  color: var(--lp-text);
+  font-family: var(--lp-sans);
   font-size: 16px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -96,10 +96,10 @@ a {
   align-items: center;
   gap: 10px;
   text-decoration: none;
-  font-family: var(--serif);
+  font-family: var(--lp-serif);
   font-size: 1.3rem;
   font-weight: 700;
-  color: var(--text);
+  color: var(--lp-text);
   white-space: nowrap;
 }
 
@@ -107,7 +107,7 @@ a {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  box-shadow: var(--glow);
+  box-shadow: var(--lp-glow);
 }
 
 .lp-nav {
@@ -119,12 +119,12 @@ a {
 
 .lp-nav a {
   text-decoration: none;
-  color: var(--text);
+  color: var(--lp-text);
   transition: color 0.2s;
 }
 
 .lp-nav a:hover {
-  color: var(--gold-bright);
+  color: var(--lp-gold-bright);
 }
 
 .lp-header__actions {
@@ -146,8 +146,8 @@ a {
   padding: 6px 10px;
   border-radius: 999px;
   border: 1px solid rgba(153, 144, 123, 0.5);
-  background: var(--surface);
-  color: var(--muted);
+  background: var(--lp-surface);
+  color: var(--lp-muted);
   font-size: 0.78rem;
   font-weight: 600;
 }
@@ -163,8 +163,8 @@ a {
 
 .lp-lang[open] summary,
 .lp-lang summary:hover {
-  color: var(--gold-bright);
-  border-color: var(--gold);
+  color: var(--lp-gold-bright);
+  border-color: var(--lp-gold);
 }
 
 .lp-lang ul {
@@ -175,10 +175,10 @@ a {
   padding: 6px;
   list-style: none;
   min-width: 170px;
-  background: var(--card);
-  border: 1px solid var(--line);
+  background: var(--lp-card);
+  border: 1px solid var(--lp-line);
   border-radius: 12px;
-  box-shadow: var(--glow-lg);
+  box-shadow: var(--lp-glow-lg);
 }
 
 .lp-lang li a {
@@ -191,8 +191,8 @@ a {
 
 .lp-lang li a:hover,
 .lp-lang li a[aria-current] {
-  background: var(--card-high);
-  color: var(--gold-bright);
+  background: var(--lp-card-high);
+  color: var(--lp-gold-bright);
 }
 
 .lp-btn {
@@ -213,13 +213,13 @@ a {
 }
 
 .lp-btn--gold {
-  background: var(--gold-bright);
+  background: var(--lp-gold-bright);
   color: #241a00;
   box-shadow: 0 4px 16px rgba(201, 162, 39, 0.25);
 }
 
 .lp-btn--gold:hover {
-  background: var(--gold-light);
+  background: var(--lp-gold-light);
 }
 
 /* Shared section bits */
@@ -241,10 +241,10 @@ a {
   gap: 8px;
   padding: 6px 14px;
   border-radius: 999px;
-  background: var(--card-high);
+  background: var(--lp-card-high);
   border: 1px solid rgba(201, 162, 39, 0.3);
-  box-shadow: var(--glow);
-  color: var(--gold-light);
+  box-shadow: var(--lp-glow);
+  color: var(--lp-gold-light);
   font-size: 0.82rem;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -253,14 +253,14 @@ a {
 .lp-chip .icon {
   width: 16px;
   height: 16px;
-  color: var(--gold-bright);
+  color: var(--lp-gold-bright);
 }
 
 .lp-h1,
 .lp-h2,
 .lp-card h3 {
-  font-family: var(--serif);
-  color: var(--text);
+  font-family: var(--lp-serif);
+  color: var(--lp-text);
   margin: 0;
 }
 
@@ -281,26 +281,26 @@ a {
 .lp-h1 em,
 .lp-h2 em {
   font-style: italic;
-  color: var(--gold-bright);
+  color: var(--lp-gold-bright);
 }
 
 .lp-lead {
-  color: var(--muted);
+  color: var(--lp-muted);
   font-size: 1.02rem;
   margin: 0;
 }
 
 .lp-card {
-  background: linear-gradient(180deg, var(--card) 0%, var(--surface) 100%);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
+  background: linear-gradient(180deg, var(--lp-card) 0%, var(--lp-surface) 100%);
+  border: 1px solid var(--lp-line);
+  border-radius: var(--lp-radius);
   padding: 24px;
-  box-shadow: var(--glow);
+  box-shadow: var(--lp-glow);
   transition: border-color 0.25s, transform 0.25s;
 }
 
 .lp-card:hover {
-  border-color: var(--line-strong);
+  border-color: var(--lp-line-strong);
   transform: translateY(-3px);
 }
 
@@ -312,7 +312,7 @@ a {
 
 .lp-card p {
   margin: 0;
-  color: var(--muted);
+  color: var(--lp-muted);
   font-size: 0.95rem;
 }
 
@@ -325,7 +325,7 @@ a {
   border-radius: 50%;
   border: 1px solid rgba(201, 162, 39, 0.45);
   background: rgba(201, 162, 39, 0.08);
-  color: var(--gold-bright);
+  color: var(--lp-gold-bright);
 }
 
 /* Store badges */
@@ -345,14 +345,14 @@ a {
   border-radius: 12px;
   background: #000;
   border: 1px solid rgba(201, 162, 39, 0.5);
-  box-shadow: var(--glow);
+  box-shadow: var(--lp-glow);
   text-decoration: none;
   color: #fff;
   transition: border-color 0.2s, transform 0.2s;
 }
 
 .store-badge:hover {
-  border-color: var(--gold-bright);
+  border-color: var(--lp-gold-bright);
   transform: translateY(-2px);
 }
 
@@ -421,7 +421,7 @@ a {
 
 .lp-trust {
   margin: 16px 0 0;
-  color: var(--muted);
+  color: var(--lp-muted);
   font-size: 0.88rem;
 }
 
@@ -445,9 +445,9 @@ a {
   width: 260px;
   padding: 10px;
   border-radius: 40px;
-  background: var(--card-high);
+  background: var(--lp-card-high);
   border: 1px solid rgba(201, 162, 39, 0.5);
-  box-shadow: var(--glow-lg);
+  box-shadow: var(--lp-glow-lg);
 }
 
 .lp-phone img {
@@ -457,7 +457,7 @@ a {
   object-fit: cover;
   object-position: center top;
   border-radius: 31px;
-  background: var(--bg-deep);
+  background: var(--lp-bg-deep);
 }
 
 .lp-hero .lp-phone {
@@ -516,16 +516,16 @@ a {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  border: 1px solid var(--gold);
-  background: var(--bg);
-  color: var(--gold-bright);
-  font-family: var(--serif);
+  border: 1px solid var(--lp-gold);
+  background: var(--lp-bg);
+  color: var(--lp-gold-bright);
+  font-family: var(--lp-serif);
   font-weight: 700;
   font-size: 1.1rem;
 }
 
 .lp-step:nth-child(2) .lp-step__num {
-  background: var(--gold-bright);
+  background: var(--lp-gold-bright);
   color: #241a00;
 }
 
@@ -558,9 +558,9 @@ a {
 
 .lp-shot figcaption {
   margin-top: 14px;
-  font-family: var(--serif);
+  font-family: var(--lp-serif);
   font-weight: 600;
-  color: var(--gold-light);
+  color: var(--lp-gold-light);
 }
 
 /* CTA */
@@ -571,10 +571,10 @@ a {
   border-radius: 24px;
   text-align: center;
   background:
-    linear-gradient(var(--card), var(--card)) padding-box,
-    linear-gradient(135deg, var(--gold-bright), rgba(201, 162, 39, 0.15) 50%, var(--gold-bright)) border-box;
+    linear-gradient(var(--lp-card), var(--lp-card)) padding-box,
+    linear-gradient(135deg, var(--lp-gold-bright), rgba(201, 162, 39, 0.15) 50%, var(--lp-gold-bright)) border-box;
   border: 1px solid transparent;
-  box-shadow: var(--glow-lg);
+  box-shadow: var(--lp-glow-lg);
 }
 
 .lp-cta .store-badges {
@@ -604,16 +604,16 @@ a {
 }
 
 .lp-footer a {
-  color: var(--muted);
+  color: var(--lp-muted);
   text-decoration: none;
 }
 
 .lp-footer a:hover {
-  color: var(--gold-bright);
+  color: var(--lp-gold-bright);
 }
 
 .lp-footer .lp-brand {
-  color: var(--text);
+  color: var(--lp-text);
 }
 
 .lp-footer__langs {
@@ -631,13 +631,13 @@ a {
 }
 
 .lp-footer__langs a[aria-current] {
-  color: var(--gold-bright);
-  border-color: var(--gold);
+  color: var(--lp-gold-bright);
+  border-color: var(--lp-gold);
 }
 
 .lp-footer__copy {
   margin: 0;
-  color: var(--muted);
+  color: var(--lp-muted);
   font-size: 0.82rem;
 }
 
