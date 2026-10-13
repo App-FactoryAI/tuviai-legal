@@ -23,8 +23,7 @@
     <div class="wrap">
       <nav class="lang-nav" aria-label="{{ t.languages }}">
         {%- for l in site.languages %}
-        {%- assign lt = site.data.i18n[l] %}
-        <a href="{{ '/' | append: l | append: '/' | relative_url }}{% if page.doc != 'home' %}{{ page.doc }}/{% endif %}" hreflang="{{ l }}" lang="{{ l }}"{% if l == page.lang %} aria-current="true"{% endif %}>{{ lt.language_name }}</a>
+        <a href="{{ '/' | append: l | append: '/' | relative_url }}{% if page.doc != 'home' %}{{ page.doc }}/{% endif %}" hreflang="{{ l }}"{% if l == page.lang %} aria-current="true"{% endif %}>{{ t.lang_names[l] }}</a>
         {%- endfor %}
       </nav>
     </div>

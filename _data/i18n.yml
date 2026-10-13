@@ -1,5 +1,12 @@
 vi:
   language_name: Tiếng Việt
+  lang_names:
+    vi: "Tiếng Việt"
+    en: "Tiếng Anh"
+    zh: "Tiếng Trung"
+    ko: "Tiếng Hàn"
+    ja: "Tiếng Nhật"
+    ms: "Tiếng Mã Lai"
   app_name: Tử Vi AI
   home: Trang chủ
   terms: Điều khoản sử dụng
@@ -52,11 +59,18 @@ vi:
   w2_title: "Riêng tư & bảo mật"
   w2_desc: "Thông tin sinh của bạn được bảo vệ và chỉ dùng để lập, luận giải lá số."
   w3_title: "Đa ngôn ngữ"
-  w3_desc: "Hỗ trợ Tiếng Việt, English, 简体中文, 한국어, 日本語 và Bahasa Melayu."
+  w3_desc: "Hỗ trợ tiếng Việt, tiếng Anh, tiếng Trung, tiếng Hàn, tiếng Nhật và tiếng Mã Lai."
   cta_title: "Bắt đầu hành trình *tìm hiểu bản thân*"
   cta_subtitle: "Tải Tử Vi AI miễn phí ngay hôm nay."
 en:
   language_name: English
+  lang_names:
+    vi: "Vietnamese"
+    en: "English"
+    zh: "Chinese"
+    ko: "Korean"
+    ja: "Japanese"
+    ms: "Malay"
   app_name: ZiWei AI
   home: Home
   terms: Terms of Service
@@ -109,11 +123,18 @@ en:
   w2_title: "Private & secure"
   w2_desc: "Your birth details are protected and used only to build and interpret your chart."
   w3_title: "Multilingual"
-  w3_desc: "Available in Tiếng Việt, English, 简体中文, 한국어, 日本語 and Bahasa Melayu."
+  w3_desc: "Available in Vietnamese, English, Chinese, Korean, Japanese and Malay."
   cta_title: "Start your journey of *self-discovery*"
   cta_subtitle: "Download ZiWei AI for free today."
 zh:
   language_name: 简体中文
+  lang_names:
+    vi: "越南语"
+    en: "英语"
+    zh: "简体中文"
+    ko: "韩语"
+    ja: "日语"
+    ms: "马来语"
   app_name: 紫微AI
   home: 首页
   terms: 服务条款
@@ -166,11 +187,18 @@ zh:
   w2_title: "隐私安全"
   w2_desc: "你的出生信息受到保护，仅用于排盘与解读。"
   w3_title: "多语言"
-  w3_desc: "支持 Tiếng Việt、English、简体中文、한국어、日本語 与 Bahasa Melayu。"
+  w3_desc: "支持越南语、英语、中文、韩语、日语和马来语。"
   cta_title: "开启*认识自我*的旅程"
   cta_subtitle: "立即免费下载紫微AI。"
 ko:
   language_name: 한국어
+  lang_names:
+    vi: "베트남어"
+    en: "영어"
+    zh: "중국어"
+    ko: "한국어"
+    ja: "일본어"
+    ms: "말레이어"
   app_name: 자미 AI
   home: 홈
   terms: 서비스 약관
@@ -223,11 +251,18 @@ ko:
   w2_title: "개인정보 보호"
   w2_desc: "출생 정보는 안전하게 보호되며 명반 작성과 해석에만 사용됩니다."
   w3_title: "다국어 지원"
-  w3_desc: "Tiếng Việt, English, 简体中文, 한국어, 日本語, Bahasa Melayu를 지원합니다."
+  w3_desc: "베트남어, 영어, 중국어, 한국어, 일본어, 말레이어를 지원합니다."
   cta_title: "*나를 알아가는* 여정을 시작하세요"
   cta_subtitle: "지금 자미 AI를 무료로 다운로드하세요."
 ja:
   language_name: 日本語
+  lang_names:
+    vi: "ベトナム語"
+    en: "英語"
+    zh: "中国語"
+    ko: "韓国語"
+    ja: "日本語"
+    ms: "マレー語"
   app_name: 星命AI
   home: ホーム
   terms: 利用規約
@@ -280,11 +315,18 @@ ja:
   w2_title: "プライバシー保護"
   w2_desc: "出生情報は保護され、命盤の作成と鑑定にのみ使用されます。"
   w3_title: "多言語対応"
-  w3_desc: "Tiếng Việt、English、简体中文、한국어、日本語、Bahasa Melayu に対応。"
+  w3_desc: "ベトナム語、英語、中国語、韓国語、日本語、マレー語に対応。"
   cta_title: "*自分を知る*旅を始めよう"
   cta_subtitle: "今すぐ星命AIを無料でダウンロード。"
 ms:
   language_name: Bahasa Melayu
+  lang_names:
+    vi: "Bahasa Vietnam"
+    en: "Bahasa Inggeris"
+    zh: "Bahasa Cina"
+    ko: "Bahasa Korea"
+    ja: "Bahasa Jepun"
+    ms: "Bahasa Melayu"
   app_name: ZiWei AI
   home: Laman utama
   terms: Syarat Perkhidmatan
@@ -337,6 +379,6 @@ ms:
   w2_title: "Peribadi & selamat"
   w2_desc: "Butiran lahir anda dilindungi dan hanya digunakan untuk membina dan mentafsir carta anda."
   w3_title: "Pelbagai bahasa"
-  w3_desc: "Tersedia dalam Tiếng Việt, English, 简体中文, 한국어, 日本語 dan Bahasa Melayu."
+  w3_desc: "Tersedia dalam bahasa Vietnam, Inggeris, Cina, Korea, Jepun dan Melayu."
   cta_title: "Mulakan perjalanan *mengenali diri*"
   cta_subtitle: "Muat turun ZiWei AI secara percuma hari ini."

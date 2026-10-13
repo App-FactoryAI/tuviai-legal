@@ -56,8 +56,7 @@
           </summary>
           <ul>
             {%- for l in site.languages %}
-            {%- assign lt = site.data.i18n[l] %}
-            <li><a href="{{ '/' | append: l | append: '/' | relative_url }}" hreflang="{{ l }}" lang="{{ l }}"{% if l == page.lang %} aria-current="true"{% endif %}>{{ lt.language_name }}</a></li>
+            <li><a href="{{ '/' | append: l | append: '/' | relative_url }}" hreflang="{{ l }}"{% if l == page.lang %} aria-current="true"{% endif %}>{{ t.lang_names[l] }}</a></li>
             {%- endfor %}
           </ul>
         </details>
@@ -85,8 +84,7 @@
       </div>
       <nav class="lp-footer__langs" aria-label="{{ t.languages }}">
         {%- for l in site.languages %}
-        {%- assign lt = site.data.i18n[l] %}
-        <a href="{{ '/' | append: l | append: '/' | relative_url }}" hreflang="{{ l }}" lang="{{ l }}"{% if l == page.lang %} aria-current="true"{% endif %}>{{ lt.language_name }}</a>
+        <a href="{{ '/' | append: l | append: '/' | relative_url }}" hreflang="{{ l }}"{% if l == page.lang %} aria-current="true"{% endif %}>{{ t.lang_names[l] }}</a>
         {%- endfor %}
       </nav>
       <p class="lp-footer__copy">© {{ site.time | date: '%Y' }} {{ t.app_name }}</p>
