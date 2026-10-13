@@ -10,7 +10,7 @@
     </div>
     <div class="lp-hero__visual">
       <div class="lp-phone">
-        <img src="{{ '/assets/img/screen-chart.jpg' | relative_url }}" alt="{{ t.shot1 }}" width="335" height="760">
+        <img src="{{ '/assets/img/screens/' | append: page.lang | append: '/la_so.jpg' | relative_url }}" alt="{{ t.shot1 }}" width="600" height="1304">
       </div>
     </div>
   </div>
@@ -66,12 +66,12 @@
       <h2 class="lp-h2">{{ t.shots_title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h2>
     </div>
     <div class="lp-shots">
-      {%- assign shots = 'chart,chat,input,account' | split: ',' %}
+      {%- assign shots = 'la_so,luan_cung,dai_van,tro_ly_ai' | split: ',' %}
       {%- for shot in shots %}
       {%- assign caption_key = forloop.index | prepend: 'shot' %}
       <figure class="lp-shot">
         <div class="lp-phone">
-          <img src="{{ '/assets/img/screen-' | append: shot | append: '.jpg' | relative_url }}" alt="{{ t[caption_key] }}" width="335" height="760" loading="lazy">
+          <img src="{{ '/assets/img/screens/' | append: page.lang | append: '/' | append: shot | append: '.jpg' | relative_url }}" alt="{{ t[caption_key] }}" width="600" height="1304" loading="lazy">
         </div>
         <figcaption>{{ t[caption_key] }}</figcaption>
       </figure>

@@ -452,7 +452,8 @@ a {
 
 .lp-phone img {
   width: 100%;
-  aspect-ratio: 335 / 760;
+  height: auto;
+  aspect-ratio: 1206 / 2622;
   object-fit: cover;
   object-position: center top;
   border-radius: 31px;
